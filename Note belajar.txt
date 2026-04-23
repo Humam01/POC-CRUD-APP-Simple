@@ -1,0 +1,5 @@
+variabel yang berisikan value secara global
+function yang berisikan fungsi/aksi secara global
+
+property yang berisikan value  di dalam class/object 
+method yang berisikan fungsi/aksi di dalam class/object

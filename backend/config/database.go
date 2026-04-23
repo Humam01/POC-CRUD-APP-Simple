@@ -28,3 +28,7 @@ func ConnectDatabase() {
 	log.Println("Berhasil konek ke database")
 	DB = db //koneksi database yang tadi dibuat disimpan ke variabel global:
 }
+
+// analogi seperti kartu kosong var DB*gorm.db hanya berisikan alamat gudang, sedangkan ConnectDatabase() adalah proses mengisi kartu tersebut dengan barang (koneksi database)
+// gorm.Open() seperti bos atau manajer yang membuka pintu gudang dan memastikan kartu akses siap untuk digunakan, jika ada masalah saat membuka pintu (koneksi), maka log.Fatal akan memberikan pesan kesalahan dan menghentikan program.
+// Jika berhasil, maka log.Println akan memberikan pesan bahwa koneksi berhasil dibuat.
